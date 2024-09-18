@@ -1,6 +1,5 @@
 'use client'
 import Image from "next/image";
-import styles from "./page.module.css"
 import { useState, useEffect } from "react";
 import axios from "axios"
 
@@ -20,12 +19,12 @@ export default function Home() {
   
 
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <div>
+      <main>
         
         <h1 style={{color:'red'}}>{data}</h1>
       </main>
-      <footer className={styles.footer}>
+      <footer>
         
       </footer>
     </div>
