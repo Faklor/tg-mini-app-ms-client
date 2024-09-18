@@ -35,9 +35,9 @@ const server = async ()=>{
     process.exit()
   }
 }
-//server()
+server()
 
-exports.api = functions.https.onRequest(app)
+//exports.api = functions.https.onRequest(app)
   
 
 
