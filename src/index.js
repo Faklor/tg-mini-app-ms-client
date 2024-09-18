@@ -15,22 +15,21 @@ const routeWorkers = require('./routs/workers')
 const routeTech = require('./routs/teches')
 const routeCategoryes = require('./routs/categoryes')
 //app.use("/api", routeWorkers)
-//app.use("/api", routeTech)
+app.use("/api", routeTech)
 //app.use("/api", routeCategoryes)
 
 const URL = 'mongodb://127.0.0.1:27017/fortuna'
 
 const port = 5000;
 
-app.get('/work', async (res, req)=>{
-  res.json('hello')
-})
+
 
 const server = async ()=>{
   try{
     
     app.listen(port, ()=> { console.log(`Server started on port: ${port}`) })
     
+
     // mongoose.connect(URL)
     // .then(() => console.log('Connected!'))
     
