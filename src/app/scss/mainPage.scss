@@ -1,3 +1,5 @@
+@import "@fontsource/inter";
+
 *{
     padding: 0;
     margin: 0;
@@ -9,6 +11,19 @@ main{
 
     background-color:#fff;
 
+    div{
+        background-color: #222D3B;
+
+        border-radius: 5px;
+        padding: 1em;
+        margin:1em;
+        text-align: center;
+        p{
+            color: #3E7DE6;
+            font-size: 20px;
+            font-family: "Inter";
+        }
+    }
     button{
         background-color: #000;
         color:#fff;
