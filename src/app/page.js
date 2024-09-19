@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import axios from "axios"
+import './scss/mainPage.scss'
 //import WebApp from 'telegram-mini-app'
 import { TelegramWebAppContainer } from '@telegram-web-app/core'
 
