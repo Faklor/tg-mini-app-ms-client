@@ -7,7 +7,6 @@ import WebApp from 'telegram-mini-app'
 export default function Home() {
 
   const [data, setData] = useState('hello')
-  let tg = window.Telegram.WebApp
 
   
   
