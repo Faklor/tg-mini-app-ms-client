@@ -17,7 +17,7 @@ export default function Home() {
     //   // console.log(WebApp.initData)
     // }
     telegram = new TelegramWebAppContainer()    
-    
+    telegram.WebApp.ready()
     
   },[telegram])
   
