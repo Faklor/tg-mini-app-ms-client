@@ -6,16 +6,9 @@ import axios from "axios"
 export default function Home() {
 
   const [data, setData] = useState('hello')
+  let tg = window.Telegram.WebApp
 
-  // async function order(){
-  //   return await axios.get('http://localhost:5000/api/teches')
-  // }
-  // useEffect(()=>{
-  //   order()
-  //   .then(res=>{
-  //     setData(res.data)
-  //   })
-  // })
+  
   
 
   return (
@@ -23,6 +16,7 @@ export default function Home() {
       <main>
         
         <h1 style={{color:'red'}}>{data}</h1>
+        <button onClick={()=>tg.sendData("Some data from Mini App")}>send</button>
       </main>
       <footer>
         
