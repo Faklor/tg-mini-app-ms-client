@@ -7,13 +7,16 @@ main{
     display: grid;
     text-align: center;
 
-    bg_color:#fff;
+    background-color:#fff;
 
     button{
         background-color: #000;
         color:#fff;
         padding: 1em 2em;
         border-radius: 5px;
+        outline: 0;
+        border: none;
+        box-shadow: 0 0 3px 1px #000;
 
         margin:1em;
     }
