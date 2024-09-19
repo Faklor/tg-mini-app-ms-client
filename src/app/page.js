@@ -28,6 +28,7 @@ export default function Home() {
         
         <h1 style={{color:'red'}}>{data}</h1>
         <button onClick={()=>telegram.WebApp.sendData('fuck')}>send</button>
+        <button onClick={()=>setData(telegram.WebApp.initData)}>init</button>
       </main>
       <footer>
         
