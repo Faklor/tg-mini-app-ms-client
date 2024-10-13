@@ -1,0 +1,10 @@
+.warehouse{
+    display: grid;
+
+    .controlls{
+        display: flex;
+    }
+    .content{
+        overflow: auto;
+    }
+}

@@ -1,0 +1,28 @@
+@import "@fontsource/inter";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    //position
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+    //styling
+    background-color: #ECF4FF;
+    color: #3D7BFA;
+    font-family: "Inter";
+
+    .conteiner{
+
+        display: grid;
+        width: 460px;
+        overflow: hidden;
+
+        margin:0 auto;
+        
+    }
+}
